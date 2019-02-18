@@ -1,0 +1,134 @@
+body{background: #EEE}
+.top{
+    width:100%;
+    height:44px;
+    line-height: 44px;
+    background: #2F2F2F;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 0 15px;
+    position:fixed;
+    top:0;
+    z-index: 10;
+}
+.top .back{
+    display: block;
+    float: left;
+    width:15px;
+    height:44px;
+    background: url(../../assets/images/back.png) no-repeat  center;
+    background-size: 15px 20px;
+}
+.top span{
+    position: relative;
+    left: 5px;
+}
+.top .edit{
+    float: right;
+    display: block;
+    color: #fff;
+}
+
+.mains{
+    margin:44px 0 95px;
+}
+.product {
+    margin-bottom: 10px;
+}
+.titles{
+    height:40px;
+    line-height: 40px;
+    border-top: 1px solid #EEEEEE;
+    background: #fff url("../../assets/images/kongbai.png") no-repeat 10px center;
+    background-size: 20px 20px;
+    padding-left: 38px;
+}
+.titles.select{
+    background: #fff url("../../assets/images/xuanzhong.png") no-repeat 10px center;
+    background-size: 20px 20px;
+}
+.commodity_box{
+    width:100%;
+    position: relative;
+}
+.commodity{
+    /*width:100%;*/
+    border-top: 1px solid #EEEEEE;
+    font-size: 12px;
+    padding: 10px 0 15px 38px;
+    overflow: hidden;
+    background: #fff url("../../assets/images/kongbai.png") no-repeat 10px center;
+    background-size: 20px 20px;
+    position: relative;
+    right:0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.commodity.select{
+    background: #fff url("../../assets/images/xuanzhong.png") no-repeat 10px center;
+    background-size: 20px 20px;
+}
+.commodity .img{
+    width:30%;float: left;
+}
+.commodity .img img{
+    display: block;
+    width:100%;
+    height:90px;
+}
+.commodity .detail{
+    float: left;
+    width:70%;
+    padding: 0 7px;
+}
+.jieshao{
+    width:100%;
+    height:48px;
+    overflow: hidden;
+}
+.size{
+    width:100%;
+    height:18px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #CCCCCC;
+}
+.price_num{
+    overflow: hidden;
+    margin-right: 5px;
+}
+.price{
+    height: 24px;
+    line-height: 35px;
+    color: #DD0707;
+    font:14px "Microsoft yahei",Arial;
+}
+.num{
+    overflow: hidden;
+}
+.num span{
+    text-align: center;
+    line-height: 22px;
+}
+.num button,.num span{
+    float: left;
+    width:24px;
+    height:24px;
+    border: 1px solid #DFDFDF;
+    background: #fff;
+}
+.del{
+    width: 60px;
+    height: 115px;
+    color: #fff;
+    background: #FF3B30;
+    line-height: 90px;
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    top: 1px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}

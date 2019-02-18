@@ -1,0 +1,553 @@
+body{background: #EFEFF4;}
+input{
+    outline: none;
+}
+.top{
+    width:100%;
+    height:44px;
+    line-height: 44px;
+    background: #2F2F2F;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.top .back{
+    display: block;
+    width:52px;
+    height:44px;
+    background: url(../images/back.png) no-repeat 0 center;
+    background-size: 15px 20px;
+    margin-left: 15px;
+    color: #fff;
+    padding-left: 20px;
+}
+.top span{
+    position: relative;
+    left: -30px;
+}
+a{
+    color: #000000;
+}
+.address_data{
+    margin: 44px 0 10px;
+    background: #fff;
+    padding: 15px;
+}
+.address_link{
+    display: block;
+    background: url("../images/right.png") no-repeat right center;
+    background-size: 7px 12px;
+    padding-right: 12px;
+}
+.consignee_data,.address{
+    height:25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.consignee_data p.rf,.consignee_data p span,.address span{
+    font-size: 12px;
+}
+.order_content{
+    background: #fff;
+    border-top:1px solid #EEEEEE;
+}
+.order{
+    border-bottom:1px solid #EEEEEE;
+    padding: 15px;
+    overflow: hidden;
+}
+.order img.lf{
+    display:block;
+    width:80px;
+    height:80px;
+}
+.data{
+    padding-left: 7px;
+    max-height: 80px;
+}
+.order_introduce{
+    max-height: 45px;
+    overflow: hidden;
+    word-break:break-all;
+}
+.order_norms{
+    color: #C4B4B4;
+    height:25px;
+    line-height: 25px;
+}
+.p_n{
+    overflow: hidden;
+    font: 14px "Microsoft yahei",Arial;
+}
+.freight{
+    padding: 10px 15px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.freight span{
+    display: inline-block;
+    float: right;
+    color: #ED3036;
+}
+.message{
+    padding: 10px 15px;
+}
+.message input{
+    width:100%;
+    height:38px;
+    padding-left: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #C8C8C8;
+}
+::-webkit-input-placeholder{
+    font-size: 14px;
+}
+.coupon{
+    margin-top: 10px;
+    background: #fff;
+    padding: 5px 15px;
+    overflow: hidden;
+}
+.coupon_num{
+    font-size: 12px;
+    height:20px;
+    line-height:20px;
+    color: #B4B4B4;
+}
+.coupon_num span{
+    color: #FF3B30;
+}
+.coupon .rf{
+    height:36px;
+    line-height: 36px;
+    color: #ED3036;
+    background: url("../images/right_red.png") no-repeat right center;
+     background-size: 7px 12px;
+    padding-right: 12px;
+}
+.finally_num{
+    padding: 15px 10px;
+    color: #6D6D72;
+}
+.finally{
+    margin-bottom: 80px;
+}
+.finally_num span{
+    color: #DD0707;
+    padding: 0 2px;
+    font-weight: 600;
+}
+.end{
+    background: #fff;
+    padding:12px 15px;
+    border-top: 1px solid #C8C7CC;
+    border-bottom: 1px solid #C8C7CC;
+}
+.end b{
+    font: 14px "Microsoft yahei",Arial;
+    font-weight: 400;
+}
+.total,.youhui,.shifu{
+    height: 20px;
+    line-height: 20px;
+    color: #C8C8CD;
+}
+.shifu{
+    color: #E10707;
+}
+.shifu span{
+    font-weight: 600;
+}
+.affirm{
+    width:100%;
+    height:40px;
+    background: #fff;
+    position: fixed;
+    bottom:0;
+}
+.affirm a{
+    float: right;
+    display: block;
+    width:100px;
+    height:40px;
+    line-height: 40px;
+    background: #DD2727;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+/*.affirm_pay{
+    display: none;
+}*/
+.affirm_address{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color:#fff;
+}
+.affirm_address_head{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    color: #ffffff;
+}
+.affirm_address_head ul {
+    width: 100%;
+    height: 40px;
+}
+.affirm_address_head ul li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+}
+.affirm_address_img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top:5px;
+    right:5px;
+}
+.affirm_address_main{
+    /*width: 150px;*/
+    /*height: 400px;*/
+    /*position: relative;*/
+    /*top:100px;*/
+    /*margin: 0 auto;*/
+
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 40px;
+    margin: 0 auto;
+    /*background: #096*/
+}
+.affirm_address_main img{
+    width: 100%;
+    height: 150px;
+    padding-bottom: 20px;
+}
+.affirm_address_main p{
+     text-align: center;
+     margin-bottom: 10px;
+ }
+.affirm_address_main input{
+    margin-top:10px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    left: 20px;
+    background-color: #ffe3e3;
+    border:1px solid #ff0000;
+    color: #ff0000;
+    outline:none
+}
+.address_add{
+    display:none;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #f7f7f7;
+}
+.affirm_add_head_img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    /* top: 5px; */
+    /* left: 10px; */
+    /* top: 10px; */
+    float: left;
+    margin: 15px 10px;
+    z-index: 2;
+}
+.affirm_add_head_f{
+    position: relative;
+    /*left: 15px;*/
+    /*top: 10px;*/
+    float: left;
+    z-index: 2;
+}
+.affirm_add_head_new{
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 44px;
+}
+.address_add_main{
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top:44px;
+    background-color: #f7f7f7;
+}
+.address_add_main ul{
+    width: 90%;
+    /*height: 100%;*/
+    margin:auto;
+}
+.address_add_main ul li{
+    border-bottom: 1px solid #e4e4e4;
+}
+.address_add_main_input{
+    position: relative;
+    float: left;
+    /*color: #b3b3b3;*/
+    color:#262626;
+    background-color: #f7f7f7;
+    padding: 0;
+    outline: none;
+    left: 30px;
+    height: 80%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    padding-left:3px;
+    border:1px solid #262626;
+}
+.address_add_main_span{
+    float: left;
+    width:100px;
+
+}
+.address_add_main_but{
+	display: block;
+	width: 90%;
+	margin: 0 5%;
+	height: 35px;
+	color:#F7F7F7;
+	background-color:red;
+	border: 0;
+	border-radius:5px;
+	margin-top:15px;
+    outline: none;
+}
+.address_add_main{
+	/*display: none;*/
+}
+.address_add_head_l{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: #2F2F2F;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+#loc_province{
+    margin-left:30px;
+}
+#address_add_main .error{
+    border:1px solid red;
+}
+.addContent{
+    width:100%;
+    display:none;
+    /*min-height:200px;*/
+    /*background-color:#009f95;*/
+}
+.content{
+    width:95%;
+    margin:auto;
+   overflow:hidden;
+    line-height:25px;
+}
+.contentLeft{
+    width:50%;
+    float: left;
+    height:50px;
+}
+.contentRight{
+    width:50%;
+    height:50px;
+    float:right;
+}
+.contentRight img{
+    width:auto;
+    height:15px;
+    padding:0;
+    float:right;
+}
+.contentRight span{
+    float:right;
+}
+.change{
+    background-color: #5299ff;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 40px;
+    float: left;
+    border-radius:5px;
+    margin-right:15px;
+}
+.delect{
+    background-color: #5299ff;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 40px;
+    float: left;
+    border-radius:5px;
+ }
+.nullDiv{
+    width:100%;
+
+}
+.affirm_address_main .nullDiv img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+.affirm_address_main input{
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    left: 20px;
+    background-color: #ffe3e3;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    outline: none;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+.content{
+    display: none;
+}
+.selectGou{
+    display:none;
+}
+.contentSlect .selectGou{
+    display: block;
+}
+#loc_province,#loc_city,#loc_county{
+    margin-left:30px;
+}
+.affirm_address_head ul .addBtn{
+    float:right;
+}
+
+.pay_img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.pay_fun{
+	width: 100px;
+	height: 30px;
+}
+#mui_box ul li{
+	width: 90%;
+	height:30px;
+}
+.liClick .xuanzhong{
+    display:block;
+    width:15px;
+    float:right;
+    margin-top: 19px;
+}
+.xuanzhong{
+    display:none;
+    width:20px;
+    float:right;
+}
+.payStyle{
+    width:100%;
+    zoom:1;
+}
+.payStyle li{
+    float:left;
+    height:45px;
+    width:100%;
+    border-bottom:1px solid #262626;
+    line-height: 40px;
+    text-align: center;
+   padding-left: 5px;
+}
+.payStyle li a{
+    float:left;
+}
+.removeHint{
+    display:none;
+    width:100%;
+    background-color:rgba(0,0,0,.5);
+    font-size:1rem;
+    color:#262626;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:100;
+}
+.removeHintContent{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1rem;
+}
+.removeHintContent p{
+    font-size:1rem;
+    line-height: 35px;
+    height:35px;
+    font-weight:bold;
+}
+.noBtn{
+    width:50%;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    color: #3b97fa;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    box-sizing:border-box;
+    border-top:1px solid #cdcdcd;
+    border-right:1px solid #cdcdcd;
+}
+.yesBtn{
+    width:50%;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    color: #3b97fa;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    box-sizing:border-box;
+    border-top:1px solid #cdcdcd;
+}

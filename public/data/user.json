@@ -1,0 +1,7 @@
+{
+    "auth":true,
+    "data":{"username":"koko"},
+    "bNav":true,
+    "bFoot":true,
+    "bLoading":true
+}
